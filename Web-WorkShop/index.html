@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laravel - The PHP Framework for Web Artisans</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/monokai.min.css">    <link rel="icon" href="https://laravel.com/img/logomark.min.svg" type="image/x-icon"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+<body>
+    <div class="notification-bar">
+        <p ><img src="./CSS/images/earth.svg" class="logo1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Join us in Dallas, TX! Tickets are now available for <a href="https://laracon.us/" class="note1">Laracon US.</a></p>
+    </div>
+
+    <header>
+        <div class="header-section logo-section">
+            <img src="https://laravel.com/img/logomark.min.svg" alt="Logo 1">
+            <img src="https://laravel.com/img/logotype.min.svg" alt="Logo 2">
+        </div>
+        <div class="header-section menu-section">
+    <nav>
+        <ul>
+            <li><a href="#">Forge</a></li>
+            <li><a href="#">Vapor</a></li>
+            <li><a href="#">Ecosystem</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Careers</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="header-section action-section">
+
+    <img src="./CSS/images/search.png" alt="Logo 3" class="search">
+<div class="btn">
+
+    <a heref="https://laravel.com/docs/11.x">Documentation</a>
+
+</div>
+</div>
+</header>
+
+
+<div class="logo-container">
+    <img src="./CSS/images/cube.svg" alt="Logo 1" class="logo">
+    <img src="./CSS/images/cube.svg" alt="Logo 2" class="logo">
+    <img src="./CSS/images/cube.svg" alt="Logo 3" class="logo">
+
+<section class="hero ">
+    <p class="hero-heading">
+        <span class="bold-black">The PHP Framework</span><br>
+        <span class="bold-red">for Web Artisans</span>
+    </p>
+    <p class="hero-description">
+        Laravel is a web application framework with expressive, elegant<br> syntax. 
+        We’ve already laid the foundation — freeing you to create<br> without sweating the small things.
+    </p>
+
+    <div class="button-container">
+        <div class="btn1">
+            <a href="#">GET STARTED</a>
+        </div>
+        <div class="btn">
+            <a href="#">WATCH LARACASTS</a>
+        </div>
+    </div>
+</section>
+
+
+</div>
+<br>
+<br>
+<br>
+
+<div class="logo-container">
+    <img src="./CSS/images/cube.svg" alt="Logo 1" class="logo2">
+    <img src="./CSS/images/cube.svg" alt="Logo 2" class="logo2">
+    
+
+<section class="content-section">
+    <div class="left-content">
+        <p class="bold-black">Write code for the<br> joy of it.</p>
+        <p class="normal-text">
+            Laravel values beauty. We love clean code just as much as you<br> do. Simple, elegant syntax puts amazing functionality at your<br> fingertips. Every feature has been thoughtfully considered to<br> provide a wonderful developer experience.
+        </p>
+        <div class="button-container">
+            <div class="btn2">
+                <a href="https://laravel.com/docs/11.x">START LEARNING</a>
+            </div>
+        </div>
+    </div>
+    <div class="right-content">
+        <pre><code class="php">
+    &lt;?php
+    Route::get('/users/{user}', function (User $user) {
+        return $user;
+    });
+    
+    Route::post('/users', function (CreateUserRequest $request) {
+        $user = User::create($request->validated());
+        Mail::to($user->email)->send(new WelcomeMessage);
+        return $user;
+    });
+
+    Route::post('/users', function (CreateUserRequest $request) {
+        $user = User::create($request->validated());
+        Mail::to($user->email)->send(new WelcomeMessage);
+        return $user;
+    });
+                </code></pre>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+                <script>hljs.highlightAll();</script>
+    </div>
+</section>
+</div>
+
+<div class="logo-container">
+    <img src="./CSS/images/cube.svg" alt="Logo 1" class="logo3">
+    <img src="./CSS/images/cube.svg" alt="Logo 2" class="logo3">
+    <img src="./CSS/images/cube.svg" alt="Logo 3" class="logo3">
+
+<p class="bold-black1">Everything you need<br> to be amazing.</p>
+<p class="normal-text1">
+    Out of the box, Laravel has elegant solutions for the common features needed by all modern web<br> applications. It's time to start building amazing applications and stop wasting time searching for<br> packages and reinventing the wheel.</p>
+
+
+
+<section class="sidebar-content-section">
+    <div class="sidebar">
+        <ul>
+            <li data-content="auth"><img src="./CSS/images/lock.svg" class="sideL">&nbsp;&nbsp;&nbsp;Authentication</li>
+            <li data-content="authz"><img src="./CSS/images/auth.svg"class="sideL">&nbsp;&nbsp;&nbsp;Authorization</li>
+            <li data-content="eloquent"><img src="./CSS/images/ORM.svg"class="sideL">&nbsp;&nbsp;&nbsp;Eloquent ORM</li>
+            <li data-content="migrations"><img src="./CSS/images/db.svg"class="sideL">&nbsp;&nbsp;&nbsp;Database Migrations</li>
+            <li data-content="validation"><img src="./CSS/images/val.svg"class="sideL">&nbsp;&nbsp;&nbsp;Validation</li>
+            <li data-content="notifications"><img src="./CSS/images/notif.svg"class="sideL">&nbsp;&nbsp;&nbsp;Notifications & Mail</li>
+            <li data-content="file-storage"><img src="./CSS/images/file.svg"class="sideL">&nbsp;&nbsp;&nbsp;File Storage</li>
+            <li data-content="job-queues"><img src="./CSS/images/job.svg"class="sideL">&nbsp;&nbsp;&nbsp;Job Queues</li>
+            <li data-content="task-scheduling"><img src="./CSS/images/clock.svg"class="sideL">&nbsp;&nbsp;&nbsp;Task Scheduling</li>
+            <li data-content="testing"><img src="./CSS/images/testing.svg"class="sideL">&nbsp;&nbsp;&nbsp;Testing</li>
+            <li data-content="events"><img src="./CSS/images/websockat.svg"class="sideL">&nbsp;&nbsp;&nbsp;Events & WebSockets</li>
+        </ul>
+    </div>
+    <div class="content-area">
+        <div id="auth" class="content-item">
+            <h2>Authentication</h2>
+            <p>Authenticating users is as simple as adding an authentication middleware to your<br> Laravel route definition:</p>
+            <div class="right-content1">
+                <pre><code class="php">
+    Route::get('/profile', ProfileController::class)
+        ->middleware('auth');
+                        </code></pre>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+                        <script>hljs.highlightAll();</script>
+            </div>
+            <p>Once the user is authenticated, you can access the authenticated user via the Auth<br> facade:</p>
+            <div class="right-content1">
+                <pre><code class="php">
+    use Illuminate\Support\Facades\Auth;
+ 
+    // Get the currently authenticated user...
+    $user = Auth::user();
+                        </code></pre>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+                        <script>hljs.highlightAll();</script>
+            </div>
+            <p>Of course, you may define your own authentication middleware, allowing you to<br> customize the authentication process.</p><br>
+            <p>For more information on Laravel's authentication features, check out<br> the <a href="https://laravel.com/docs/authentication" class="note1">authentication documentation.</a></p>
+        </div>
+        <div id="authz" class="content-item">
+            <h2>Authorization</h2>
+            <p>Content about Authorization...</p>
+        </div>
+        <div id="eloquent" class="content-item">
+            <h2>Eloquent ORM</h2>
+            <p>Content about Eloquent ORM...</p>
+        </div>
+        <div id="migrations" class="content-item">
+            <h2>Database Migrations</h2>
+            <p>Content about Database Migrations...</p>
+        </div>
+        <div id="validation" class="content-item">
+            <h2>Validation</h2>
+            <p>Content about Validation...</p>
+        </div>
+        <div id="notifications" class="content-item">
+            <h2>Notifications & Mail</h2>
+            <p>Content about Notifications & Mail...</p>
+        </div>
+        <div id="file-storage" class="content-item">
+            <h2>File Storage</h2>
+            <p>Content about File Storage...</p>
+        </div>
+        <div id="job-queues" class="content-item">
+            <h2>Job Queues</h2>
+            <p>Content about Job Queues...</p>
+        </div>
+        <div id="task-scheduling" class="content-item">
+            <h2>Task Scheduling</h2>
+            <p>Content about Task Scheduling...</p>
+        </div>
+        <div id="testing" class="content-item">
+            <h2>Testing</h2>
+            <p>Content about Testing...</p>
+        </div>
+        <div id="events" class="content-item">
+            <h2>Events & WebSockets</h2>
+            <p>Content about Events & WebSockets...</p>
+        </div>
+    </div>
+</section>
+
+</div>
+<p class="normal-text2">
+    We've just scratched the surface. Laravel has you covered for everything you will need to build a<br> web application, including email verification, rate limiting, and custom console commands. Check<br> out the <a href="" class="note1">Laravel documentation</a> to keep learning.</p>
+<p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const sidebarItems = document.querySelectorAll('.sidebar ul li');
+    const contentItems = document.querySelectorAll('.content-item');
+
+    sidebarItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const targetId = this.getAttribute('data-content');
+            
+            // Hide all content items
+            contentItems.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Show the targeted content item
+            document.getElementById(targetId).classList.add('active');
+        });
+    });
+
+    // Optionally, set the first item as active by default
+    if (sidebarItems.length > 0) {
+        sidebarItems[0].click();
+    }
+});
+
+</script>
+
+</body>
+</html>
